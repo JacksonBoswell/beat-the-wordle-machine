@@ -3,7 +3,9 @@
 The ai wordle solver uses information theory and statistical entropy to make the best guesses on a random wordle word. This program allows the user to challenge the ai guesser and see if they can beat the machine! After each guess, the program will return the expected bit rate of the ai's guess and the bit rate of the user guess. Based on these results, the user may view how effeicient their guesses are. At the end, the program will print out the most efficient game that could have been played based on expected bit rate.
 
 
->A few clarifications should be made about this program:
+
+
+A few clarifications should be made about this program:
 ------------------------------------------------------------------------------------------------------------------------------------------------------
 - In the context of this application, bit rate refers to the amount of information that is revealed/removed when a certain guess is made. If a guess cuts the possible remaining words in half, it is said to have a bit rate of 1. If it cuts the remaining words into a quarter, it is said to have a bit rate of 2. 
 - When a guess is made, there are nearly 3^5 possible unique feedbacks that can be returned. This is due to the fact that each letter has 3 possible feedbacks, green, yellow, or gray, and there are 5 letters. Because some masks are not possible, for example, 4 green letters and a yellow letter, the number of possible masks is a little less than 3^5.
