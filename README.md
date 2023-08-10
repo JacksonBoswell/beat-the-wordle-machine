@@ -13,10 +13,4 @@ A few clarifications should be made about this program:
 - After the guess is made, the program compares the guess to the secret word, and feedback, green, yellow, and gray tiles, is given.
 - The word list is then updated to only contain the words in the mask which corresponds to the feedback given after the previous guess had been made.
 - It should be noted that a guess can be the secret word but still not be a wise or optimal guess, which is why a correct answer may be in a low percentile. This is because the ai relies on expected information. Sometimes the actual information yield may be higher or lower than the expected information yield but the expected information yield is the most efficient method in the long run.
->
-
-
-
-
-
-
+- Concerning a returned percentile, the max percnetile is 100. A higher percentile is better while a lower percentile is worse.
