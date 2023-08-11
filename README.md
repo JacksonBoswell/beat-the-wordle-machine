@@ -1,6 +1,6 @@
 # ai-wordle-solver
 
-The ai wordle solver uses information theory and statistical entropy to make the best guesses on a random wordle word. This program allows the user to challenge the ai guesser and see if they can beat the machine! After each guess, the program will return the expected bit rate of the ai's guess and the bit rate of the user guess. Based on these results, the user may view how efficient their guesses are. At the end, the program will print out the most efficient game that could have been played based on expected bit rate.
+The ai wordle solver uses information theory and statistical entropy to make the best guesses on a random wordle word. This program allows the user to challenge the ai guesser and see if they can beat the machine! After each guess, the program will return the expected bit rate of the ai's guess and the bit rate of the user guess. Based on these results, the user may view how efficient their guesses are. At the end, the program will print out the most efficient game that could have been played based on expected bit rate. The wordle game is in the "wordle.py" file.
 
 
 
